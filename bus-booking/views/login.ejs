@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Login</title>
+		<link rel="stylesheet" href="assets/Admin/dist/assets/css/public.css" />
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/icomoon.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/flexslider.css">
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
+		<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<script src="assets/js/modernizr-2.6.2.min.js"></script>
+		<style type="text/css">
+			#img {
+			    animation: fadeInAnimation ease 0.5s;
+			    animation-iteration-count: 1;
+			    animation-fill-mode: forwards;
+			}
+			  
+			@keyframes fadeInAnimation {
+			    0% {
+			        opacity: 0;
+			    }
+			    100% {
+			        opacity: 1;
+			     }
+			}
+		</style>
+	</head>
+	<body>
+		<div class="colorlib-loader"></div>
+		<div id="page">
+			<nav class="colorlib-nav" role="navigation">
+				<div class="top-menu">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-2">
+								<div id="colorlib-logo"><a href="/"><b>CODERED</b></a></div>
+							</div>
+							<div class="col-xs-10 text-right menu-1">
+								<ul>
+									<li class=""><a href="/">Home</a></li>
+									<li class=""><a href="/about">About</a></li>
+									<li class=""><a href="/contact">Contact</a></li> 
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+			<aside id="colorlib-hero">
+				<div class="flexslider">
+					<ul class="slides">
+				   	<li id="img" style="background-image: url(assets/images/login_cover.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
+					   				<div class="slider-text-inner text-center">
+					   					<h1>Login</h1>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</aside>
+
+			<div class="colorlib-wrap">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="wrap-division">
+										<div class="col-md-12 col-md-offset-0 heading2 animate-box">
+											<h2>Please Login</h2>
+										</div>
+										<div class="row">
+											<div class="col-md-12 animate-box">
+												<div class="room-wrap">
+													<div class="row">
+	            									  <form role="form" name="hotels-enq" method="POST" action="/login">
+										                <div class="form-group">
+										                  <label>Email</label>
+										                  <input type="text" class="form-control" id="enq-input email" placeholder="Email" name="email" value="" required title="Please Enter Your email">
+										                </div>
+										                <div class="form-group">
+										                  <label>Password</label>
+										                  <input type="password" class="form-control" id="enq-input password" placeholder="Your Password" name="password" value="">
+										                </div>										
+	                  									<button type="submit" class="btn btn-primary">Login</button>
+	                  									<button type="button" onclick="location.href='/register'" class="btn btn-primary" value="register">Register</button>
+	                  								   </form>
+													</div>
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+				</div>
+			</div>
+		</div>
+		<footer id="colorlib-footer" role="contentinfo">
+			<div class="container">
+			    <div class="row row-pb-md">
+			        <div class="col-md-3 colorlib-widget">
+			            <h4>Developer</h4>
+			            <p>
+			            	Kunal Pende (IIT2019187)
+			            </p>
+			            <p>
+			            	Debashish Datt (IIT2019188)   
+			            </p>
+			            <p>
+			            	Shivangi Verma (IIT2019224)
+			            </p>
+			            <p>
+			            	Ritu Murmu (IIB2019025)
+			            </p>
+			        </div>
+			        <div class="col-md-2 colorlib-widget">
+			            <h4>Details</h4>
+			            <p>
+			                <ul class="colorlib-footer-links">
+			                    <li><a href="/about">About</a></li>
+			                    <li><a href="/contact">Contact Us</a></li>
+			                </ul>
+			            </p>
+			        </div>
+			        <div class="col-md-2 colorlib-widget">
+			            <h4>Places we Cover</h4>
+			            <p>
+			                <ul class="colorlib-footer-links">
+			                    <li>A</li>
+			                    <li>B</li>
+			                    <li>C</li>
+			                    <li>D</li>
+			                </ul>
+			            </p>
+			        </div>
+			        <div class="col-md-2">
+			            <h4>Project Details</h4>
+			            <ul class="colorlib-footer-links">
+			                <li>DATABASE MANAGMENT SYSTEM</li>
+			                <li>SEMESTER - 4</li>
+			                <li>B.Tech 2nd Year</li>
+			            </ul>
+			        </div>
+
+			        <div class="col-md-3 col-md-push-1">
+			            <h4>Contact Information</h4>
+			            <ul class="colorlib-footer-links">
+			                <li>Indian Institue of Information Technology, Allahabad</li>
+			            </ul>
+			        </div>
+			    </div>
+			    <div class="row">
+			        <div class="col-md-12 text-center">
+			            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+			        </div>
+			    </div>
+			</div>
+		</footer>
+
+
+		<div class="gototop js-top">
+			<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+		</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.easing.1.3.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.waypoints.min.js"></script>
+		<script src="assets/js/jquery.flexslider-min.js"></script>
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<script src="assets/js/magnific-popup-options.js"></script>
+		<script src="assets/js/bootstrap-datepicker.js"></script>
+		<script src="assets/js/jquery.stellar.min.js"></script>
+		<script src="assets/js/main.js"></script>
+
+
+	</body>
+</html>
